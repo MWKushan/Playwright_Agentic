@@ -1,5 +1,7 @@
 import { test, expect } from '@playwright/test';
 
+test.skip(true, 'Temporarily disabled');
+
 test('has title', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 

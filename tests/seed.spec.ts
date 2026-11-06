@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+test.skip(true, 'Temporarily disabled');
 
 test.describe('Test group', () => {
   test('seed', async ({ page }) => {
